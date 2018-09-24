@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adrwallpaper"
+    android:orientation="vertical"
+    android:id="@+id/manhinh"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:scaleType="fitStart"
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        app:srcCompat="@drawable/charbns" />
+</RelativeLayout>

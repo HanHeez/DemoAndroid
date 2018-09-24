@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="CustomAppBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary" >#EC407A</item>
+        <item name="android:colorPrimaryDark">#AD1457</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:navigationBarColor">#EC407A</item>
+
+    </style>
+    <style name="CustomBackgroundPopup" parent="CustomAppBar">
+        <item name="android:background">#EC407A</item>
+    </style>
+
+</resources>

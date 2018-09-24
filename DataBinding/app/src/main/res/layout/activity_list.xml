@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="contactInfoList"
+            type="com.gtv.hanhee.databinding.ListDataBinding.Model.ContactInfoList" />
+
+        <variable
+            name="listheading"
+            type="com.gtv.hanhee.databinding.ListDataBinding.Model.ListHeading" />
+
+        <variable
+            name="listactivity"
+            type="com.gtv.hanhee.databinding.ListDataBinding.View.ListActivity" />
+    </data>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ListDataBinding.View.ListActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_gravity="start"
+                    android:id="@+id/btnAdd"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{contactInfoList::add}"
+                    android:text="Thêm" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:gravity="start"
+                    android:id="@+id/btnRemove"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{contactInfoList::remove}"
+                    android:text="Xóa" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@{listheading.title}"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+        <!--<ListView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--bind:items="@{contactInfoList.list}">-->
+
+        <!--</ListView>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerListContact"
+            bind:items="@{contactInfoList.list}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</layout>

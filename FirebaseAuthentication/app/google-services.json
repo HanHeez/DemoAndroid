@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558496715160",
+    "firebase_url": "https://vdfirebase-94e0a.firebaseio.com",
+    "project_id": "vdfirebase-94e0a",
+    "storage_bucket": "vdfirebase-94e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558496715160:android:4fd87d4c864665cb",
+        "android_client_info": {
+          "package_name": "com.gtv.hanhee.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558496715160-l36gfm6fbqdgcotl5adsi34rb4dqa0e0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gtv.hanhee.firebaseauthentication",
+            "certificate_hash": "9212785bfe7f34d98c1393ad65542bd072ce11f5"
+          }
+        },
+        {
+          "client_id": "558496715160-g9vastr7kn9u7qu6f0fkui5rsgd6oafp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi0HdMoV8wcQS1qOCZyGWarhOTn4oXQtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558496715160-g9vastr7kn9u7qu6f0fkui5rsgd6oafp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

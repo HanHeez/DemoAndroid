@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HocAutoComplete</string>
+    <string-array name="arrTinhThanh">
+        <item>Ha Noi</item>
+        <item>Ho Chi minh</item>
+        <item>Đà Nẵng</item>
+        <item>Ha Nam</item>
+        <item>Ha Tinh</item>
+        <item>Bac Lieu</item>
+        <item>Lai Chau</item>
+        <item>Dak Lak</item>
+    </string-array>
+</resources>

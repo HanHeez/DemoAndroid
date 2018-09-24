@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#e2e60c"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ Tên"
+        android:textColor="#F00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtNamSinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nam Sinh: "
+        android:textColor="#163ad9"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa Chỉ:"
+        android:textColor="#89795a"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:abc@gmai.com"
+        android:textColor="#0f6341"
+        android:textSize="25sp" />
+</LinearLayout>

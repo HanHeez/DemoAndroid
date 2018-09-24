@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gtv.hanhee.dangonngu.MainActivity">
+
+    <TextView
+        android:id="@+id/txtMuaHe"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:text="@string/muahe" />
+
+    <TextView
+        android:id="@+id/txtMuaThu"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="@string/muathu" />
+
+    <TextView
+        android:id="@+id/txtMuaDong"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="@string/muadong" />
+
+    <TextView
+        android:id="@+id/txtMuaXuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/muaxuan" />
+</LinearLayout>

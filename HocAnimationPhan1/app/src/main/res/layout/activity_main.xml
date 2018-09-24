@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutManhinh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F00"
+    tools:context="com.gtv.hanhee.hocanimationphan1.MainActivity">
+
+    <Button
+        android:id="@+id/btnXoayCtrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xoay Control" />
+
+    <Button
+        android:id="@+id/btnXoayMh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xoay Man Hinh" />
+
+    <Button
+        android:id="@+id/btn3s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xoay #s xong tat" />
+
+    <Button
+        android:id="@+id/btnHieuUngLv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hieu Ung List View" />
+</LinearLayout>

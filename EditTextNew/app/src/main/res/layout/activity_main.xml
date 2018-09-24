@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:drawableLeft="@drawable/icon_user"
+        android:id="@+id/editTextHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:ems="10"
+        android:hint="Nhap Ho Ten"
+        android:textColorHint="#71585555"
+        android:inputType="textPersonName"
+        android:textColor="#be1313"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHoTen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Sign In" />
+</RelativeLayout>

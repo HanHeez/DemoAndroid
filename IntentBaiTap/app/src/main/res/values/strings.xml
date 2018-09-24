@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Intent Bai Tap</string>
+    <string-array name="list_name">
+        <item>ava1</item>
+        <item>ava2</item>
+        <item>ava3</item>
+        <item>ava4</item>
+        <item>ava5</item>
+        <item>ava6</item>
+        <item>ava7</item>
+        <item>ava8</item>
+        <item>ava9</item>
+        <item>ava10</item>
+        <item>ava11</item>
+        <item>ava12</item>
+        <item>ava13</item>
+        <item>ava14</item>
+        <item>ava15</item>
+        <item>ava16</item>
+        <item>ava17</item>
+        <item>ava18</item>
+
+    </string-array>
+</resources>

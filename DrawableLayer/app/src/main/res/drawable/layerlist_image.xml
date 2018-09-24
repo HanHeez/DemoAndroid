@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item>
+        <bitmap android:src="@drawable/mura"
+            android:gravity="center"
+    </item>
+    <item android:top="200dp"
+        android:left="250dp">
+        <bitmap android:src="@drawable/girl1"
+            android:gravity="center"
+    </item>
+    <item android:right="200dp" android:bottom="200dp">
+        <bitmap android:src="@drawable/pkm1"
+            android:gravity="center"
+    </item>
+</layer-list>

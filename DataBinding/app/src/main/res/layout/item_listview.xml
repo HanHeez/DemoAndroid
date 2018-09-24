@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+        <variable
+            name="contact"
+            type="com.gtv.hanhee.databinding.ListDataBinding.Model.Contact" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{contact.name}"
+            android:textColor="#125dd6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{contact.phone}"
+            android:textColor="#d71a1a"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</layout>

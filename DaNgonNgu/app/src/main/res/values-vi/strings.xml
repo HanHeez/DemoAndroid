@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DaNgonNgu</string>
+    <string name="muaxuan">Mua Xuan</string>
+    <string name="muahe">Mua He</string>
+    <string name="muadong">Mua Dong</string>
+    <string name="muathu">Mua Thu</string>
+</resources>

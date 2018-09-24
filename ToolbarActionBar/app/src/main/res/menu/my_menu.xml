@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itSearchView"
+        android:title="Search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"></item>
+
+    <item android:id="@+id/itProvider"
+        android:title="Share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom"
+
+        ></item>
+
+    <item android:title="Thêm" android:id="@+id/itThem"></item>
+    <item android:title="Xóa" android:id="@+id/itXoa"></item>
+    <item android:title="Sửa" android:id="@+id/itSua"></item>
+
+</menu>

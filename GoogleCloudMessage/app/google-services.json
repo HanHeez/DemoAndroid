@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1063742846178",
+    "firebase_url": "https://hanheeproject.firebaseio.com",
+    "project_id": "hanheeproject",
+    "storage_bucket": "hanheeproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063742846178:android:14a13cf00836f116",
+        "android_client_info": {
+          "package_name": "com.gtv.hanhee.googlecloudmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063742846178-u86rrbn4g9n93nvt8kcarcfjvbevfngh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyCJkWk2Y_ol5yiRKgr7cq2eakQl58C2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

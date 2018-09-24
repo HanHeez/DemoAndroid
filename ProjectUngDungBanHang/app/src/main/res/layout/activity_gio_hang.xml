@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    tools:context=".activity.GioHangActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarGiohang"
+        android:background="#f2c6c6"
+        app:title="Giỏ hàng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/txtThongbao"
+                android:textSize="30sp"
+                android:text="Giỏ hàng bạn đang trống"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fadingEdgeLength="0dp"
+                android:fillViewport="true"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- com.Example Changed with your Package name -->
+
+                    <com.gtv.hanhee.projectungdungbanhang.NonScrollListView
+                        android:id="@+id/lvGiohang"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </com.gtv.hanhee.projectungdungbanhang.NonScrollListView>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lvGiohang" >
+
+                        <!-- Your another layout in scroll view -->
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_below="@+id/lvGiohang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#f20"
+                android:text="Tổng tiền"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center|right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="20sp"
+                    android:gravity="center|right"
+                    android:textColor="#f20"
+                    android:id="@+id/txtTongtien"
+                    android:text="Giá tiền"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:textSize="20sp"
+        android:textColor="#3064be"
+        android:id="@+id/btnThanhtoan"
+        android:layout_weight="1"
+        android:text="Thanh Toán giỏ hàng"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:textSize="20sp"
+        android:textColor="#3064be"
+        android:id="@+id/btnTieptucmuahang"
+        android:layout_weight="1"
+        android:text="Tiếp tục mua hàng"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

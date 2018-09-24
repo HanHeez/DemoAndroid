@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryRed">#cd2027</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="transparentBGDangNhap">#66000000</color>
+    <color name="colorFacebook">#189aca</color>
+    <color name="colorRed">#fa2a35</color>
+    <color name="colorDarkGreen">#07d6ba</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBGTrangchu">#CCC</color>
+    <color name="transparentWhite">#50FFFFFF</color>
+</resources>

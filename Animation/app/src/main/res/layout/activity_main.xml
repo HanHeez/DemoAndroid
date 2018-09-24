@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="100dp"
+        android:id="@+id/txtAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+         />
+
+    <CheckBox
+        android:layout_margin="50dp"
+        android:stateListAnimator="@animator/anim_scale"
+        android:id="@+id/btn_like"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:button="@null"
+        android:background="@drawable/ic_like"
+        android:checked="false"
+         />
+
+    <Button
+        android:text="Property Animation"
+        android:id="@+id/btnProperty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="View Animation"
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Drawable Animation"
+        android:id="@+id/btnDrawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:stateListAnimator="@xml/animate_scale"
+        android:text="State List Animation"
+        android:id="@+id/btnState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

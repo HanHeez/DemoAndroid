@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img1"
+                />
+            
+            <TextView
+                style="@style/CustomTextView"
+                android:text="Hinh 1"
+                 />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img2"
+                />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="Hinh 2"
+                />
+
+        </RelativeLayout>
+    </ViewFlipper>
+    
+    <ImageView
+        android:id="@+id/imgPrev"
+        android:src="@drawable/back1"
+        android:layout_alignParentLeft="true"
+
+        android:layout_width="50dp"
+        android:layout_centerVertical="true"
+        android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/imgNext"
+        android:src="@drawable/forward1"
+        android:layout_alignParentRight="true"
+
+        android:layout_width="50dp"
+        android:layout_centerVertical="true"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
