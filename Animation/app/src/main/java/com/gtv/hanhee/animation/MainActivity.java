@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void onClickViewAnim() {
+        // phien ban cu
         Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.demoanim);
         txtAnim.startAnimation(animation);
 
